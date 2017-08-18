@@ -1,8 +1,8 @@
 class MoveElements
   def self.move_elements(list)
     return list if list.size <= 1
-    min = list[0]
-    max = list[0]
+    min = list.first
+    max = list.last
     (1...list.size - 1).each do |i|
       min = list[i] if list[i] < list[i+1] && list[i] < min
       max = list[i] if list[i] > list[i+1] && list[i] > max
