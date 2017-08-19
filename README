@@ -1,0 +1,7 @@
+1. Installation requirements
+ruby version 2+
+bundler
+
+2. How to run
+
+bundle && bundle exec rspec
