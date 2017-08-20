@@ -1,4 +1,5 @@
 class FindMinElements
+  # find_min_elements - finds indexex of two smallest elements in array
   def self.find_min_elements(list)
     return [0] if list.size <= 1
     return [0, 1] if list.size <= 2
